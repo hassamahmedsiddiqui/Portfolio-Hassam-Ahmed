@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassam Portfolio</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <!-- Boxicons  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header styling -->
+    <header class="header">
+        <a href="#" class="logo"> Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="toggleBtn hide">
+            <button class="menuButton"><i class="p-0 fa-solid fa-bars"></i></button>
+        </div>
+
+
+    </header>
+
+    <!-- SideBar -->
+    <div class="sidebar">
+        <div class="sdbrheader">
+            <div class="sdbrLogo">
+                <h1 class="m-0">Portfolio</h1>
+            </div>
+            <div class="sdbrBtn">
+                <button class="crossButton"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+
+        <div class="sdbrNavigateItems">
+            <div class="sdbrItems">
+                <ul class="m-0">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <li><a href="#">Blog</a></li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="sdbrIcons row m-0 p-5">
+            <div class="sdbrIcn col-12 m-0 p-0">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- home section Design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, it's Me</h3>
+            <h1><span>Hassam</span> Ahmed</h1>
+            <h3>And I'm a <span>Front-end Developer </span></h3>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam fugiat,
+               <br> quam magni quae quisquam nisi omnis corporis.</p> -->
+            <p>I build a attractive and responsive websites and create a more efficiently <br> website that will help to
+                behaves smoothly and makes a user experience better.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/Hassamahmed47"><i class='bx bxl-facebook'></i></a>
+                <a href="https://github.com/hassamahmedsiddiqui"> <i class='bx bxl-github'></i></a>
+                <a href="https://wa.me/03456412160"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/hassam-ahmed-952329289/"><i class='bx bxl-linkedin'></i></a>
+
+            </div>
+            <a href="./images/Hassam-Resume.png" class="btn">Resume</a>
+        </div>
+        <div class="home-img">
+            <img height="550px" width="570" src="images/boy-working-on-laptop-with-idea-5520347-4615333.webp" alt="">
+
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img class="hassam" src="images/hassam.jpeg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">
+                About <span>Me</span>
+            </h2>
+            <h2 class="Arg">Who Am I <span style="color:#0ef;">?</span></h2>
+            <h1><span>Hassam</span> Ahmed</h1>
+            <h3>Front-end Developer & Designer</h3>
+            <h2 class="subheading">My Expertise : <span class="multiple-text"></span></h2>
+            <h4>Web Developer :</h4>
+            <p>I am a Front-End Developer and I can capable to create responsive and attractive<br> websites and
+                portfolio I also learning more and more programming languages<br> and its libraries for become a
+                Full-Stack Developer and so on..!</p>
+            <a href="#" class="btn read-more">Read More</a>
+
+
+        </div>
+    </section>
+    <!-- Service sedction ID -->
+    <section class="services" id="services">
+        <h2 class="heading">Mine <span>Services</span></h2>
+        <div class="service-container">
+            <div class="service-box mt">
+                <i class='bx bx-code-alt'></i>
+                <h3><span>Web</span> Development</h3>
+                <p>Attractive <span>Web Development</span> & <br> <span>Web Design</span> which catches visitor <br>
+                    eye's and responsible for creating all <br>aspects of client websites,<br> start to finish.</p>
+                <a href="#" class="btn btn-rmore">Read More</a>
+            </div>
+            <div class="service-box mt">
+                <i class='bx bxs-layout'></i>
+                <h3><span>Responsive</span> Layout</h3>
+                <p>Create <span>Responsive Layouts</span> which will<br> be User Friendly working almost in all
+                    <br>browsers and function well on a wide <br> range of devices and screen sizes e.g <br> PC, Laptop,
+                    Mobile etc.
+
+                </p>
+                <a href="#" class="btn btn-rmore">Read More</a>
+            </div>
+            <div class="service-box mt">
+                <i class='bx bx-fast-forward-circle'></i>
+                <h3><span>Animated</span> Effects</h3>
+                <p>Create <span>Animated Effects</span> on Client<br> Website which moves dynamically <br> when the user
+                    using and scrolling <br> a website and this willmakes<br> a User Experience better.
+
+                </p>
+
+                <a href="#" class="btn btn-rmore ">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="FullName">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="send Message" class="submitBtn">
+        </form>
+    </section>
+
+    <!-- footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright & Copy: 2023 by <span>Hassam Ahmed</span> | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-chevrons-up'></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
